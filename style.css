@@ -64,3 +64,19 @@
 {
     clear: left;
 }
+
+.social-share-wrapper div a {
+  text-decoration: none;
+  border: none;
+  padding: 5px 10px;
+  /* border-radius: 115px; */
+}
+
+.social-share-wrapper div.facebook,
+.social-share-wrapper div.twitter,
+.social-share-wrapper div.linkedin,
+.social-share-wrapper div.reddit{
+  
+  padding: 5px;
+  
+}

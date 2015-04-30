@@ -179,9 +179,9 @@ function add_social_share_icons($content)
     $url = get_permalink($post->ID);
     $url = esc_url($url);
  
-    if(get_option("social-share-facebook") == 1)
+    if(get_option("social_share_fb") == 1)
     {
-        $html = $html . "<div class='facebook'><a target='_blank' href='http://www.facebook.com/sharer.php?u=" . $url . "'><i class='fa fa-facebook'></i></a></div>";
+        $html = $html . "<div class='facebook'><a target='_blank' href='https://www.facebook.com/sharer/sharer.php?u=" . $url . "'><i class='fa fa-facebook'></i></a></div>";
     }
  
     if(get_option("social-share-twitter") == 1)
@@ -214,7 +214,7 @@ function tr_social_share_style()
 {
     wp_register_style("social-share-style-file", plugin_dir_url(__FILE__) . "style.css");
     wp_enqueue_style("social-share-style-file");
-    wp_enqueue_style("social-share-font-awesome", "http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+    wp_enqueue_style("social-share-font-awesome", "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 }
  
 add_action("wp_enqueue_scripts", "tr_social_share_style");
