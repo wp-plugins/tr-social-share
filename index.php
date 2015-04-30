@@ -3,7 +3,7 @@
  * Plugin Name: TR Social Share
  * Plugin URI: http://themeroad.net/
  * Description: Display Social share Icons below every post.
- * Version:  1.0.0
+ * Version:  1.1.0
  * Author: Theme Road
  * Author URI: http://themeroad.net/
  * License:  GPL2
